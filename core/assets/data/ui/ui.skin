@@ -1,0 +1,62 @@
+{
+
+	com.badlogic.gdx.graphics.g2d.BitmapFont: {
+        big: { file: editundo_24.fnt },
+        medium: { file: editundo_20.fnt },
+        small: { file: editundo.fnt }
+    },
+
+	com.badlogic.gdx.graphics.Color: {
+	    green: { a: 1, b: 0, g: 1, r: 0 },
+	    white: { a: 1, b: 1, g: 1, r: 1 },
+	    red: { a: 1, b: 0, g: 0, r: 1 },
+	    black: { a: 1, b: 0, g: 0, r: 0 }
+	},
+
+	com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	    title: { font: big, fontColor: green, background: title_background  },
+        dialogtitle: { font: medium, fontColor: white  }
+	    dialogtitle_black: { font: medium, fontColor: black  }
+	    dialogtitle_white: { font: medium, fontColor: white  }
+	    dialogtitle_green: { font: medium, fontColor: green  },
+	    dialogtitle_red: { font: medium, fontColor: red  }
+	    paragraph: { font: small, fontColor: white  }
+	    paragraph_white: { font: small, fontColor: white  }
+	},
+
+	com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	    loading: { background: Monitor, knobBefore: Monitor_blue   }
+	},
+
+    com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+        mainmenu: {
+            down: panel_dark, up: panel_light, over: panel
+            font: medium, fontColor: white
+        },
+        optionsmenu: {
+            down: panel, up: panel_dark
+            font: medium, fontColor: black
+        },
+        intro: {
+            down: button, up: button_dark
+            font: medium, fontColor: white
+        }
+    },
+
+	com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+        options: {
+            imageUp: settings, down: button_dark, up: button_light, over: button
+        }
+    },
+
+	com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+        options: {
+            background: button_light, titleFont: medium
+        }
+    },
+
+	com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    	introPanel: { background: Monitor }
+	}
+
+}
